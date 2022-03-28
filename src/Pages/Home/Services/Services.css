@@ -1,0 +1,16 @@
+.services{
+    padding: 100px;
+}
+.services-content{
+    text-align: center;
+}
+.services-content h1{
+    color: #603e0a;
+    border: 1px solid black;
+}
+
+.services-content h3{
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
