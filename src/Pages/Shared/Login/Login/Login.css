@@ -1,0 +1,25 @@
+.form-bg{
+    background-image: url('https://i.ibb.co/vDLGtPZ/photo-1559348349-86f1f65817fe-ixlib-rb-1-2.jpg');
+    background-position: center;
+    border-radius: 30px;
+}
+.form-container input{
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 20px 0;
+    background: none;
+    z-index: 1
+}
+.form-container button{
+    width: 100px;
+    margin: 0 auto;
+}
+.form-container input:focus{
+    background: none;
+    color: white;
+    outline: none;
+}
+.form-container input::placeholder{
+    font-family:monospace;
+    color: white;
+}
