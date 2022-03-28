@@ -1,0 +1,65 @@
+[
+    {
+        "id":0,
+        "name":"Aluminum Alloy mountain e bike bicycle",
+        "img":"https://sc04.alicdn.com/kf/H44c58cdf99d54ff08e6b4369435adaacS.jpg",
+        "type":"bike",
+        "price":45
+    },
+    {
+        "id":1,
+        "name":"Snow mountainbike bicycle mountain bike",
+        "img":"https://sc04.alicdn.com/kf/H7fdea4d6ebce4f828140f67085e6b8e3T.jpg",
+        "type":"bike",
+        "price":50
+    },
+    {
+        "id":2,
+        "name":"New Dual Battery Electric Bike 2022",
+        "img":"https://sc04.alicdn.com/kf/H2fc74bc38a56441b8fd30baaa39c46390.jpg",
+        "type":"bike",
+        "price":58
+    },
+    {
+        "id":3,
+        "name":"24 26 27.5 29 inch mountain bicycle/high carbon steel",
+        "img":"https://sc04.alicdn.com/kf/He9f3eb4f16c44edd82228aba16c694baz.png",
+        "type":"bike",
+        "price":60
+    },
+    {
+        "id":3,
+        "name":"2mountain bicycle/high carbon steel",
+        "img":"https://sc04.alicdn.com/kf/He9f3eb4f16c44edd82228aba16c694baz.png",
+        "type":"bike",
+        "price":60
+    },
+    {
+        "id":4,
+        "name":"bicycle handlebar light front lamp bike",
+        "img":"https://sc04.alicdn.com/kf/Hca64119e76344a5faf59ceb261c04fe4P.jpg",
+        "type":"accessories",
+        "price":37
+    },
+    {
+        "id":5,
+        "name":"New Outdoor Sports Gloves Shockproof",
+        "img":"https://sc04.alicdn.com/kf/He22bf5fbfefd401f8fdc504e3bc1fe13V.jpg",
+        "type":"accessories",
+        "price":5
+    },
+    {
+        "id":6,
+        "name":"Narrow Wide Chainrings 38T-58T Bike Chainwheel",
+        "img":"https://sc04.alicdn.com/kf/Hcd5058b72afe40d780a25dfce7533870h.jpg",
+        "type":"accessories",
+        "price":7
+    },
+    {
+        "id":7,
+        "name":"half hollow silvery bike chains",
+        "img":"https://sc04.alicdn.com/kf/Hb1844de910534c36bccbde799b687ca35.jpg",
+        "type":"accessories",
+        "price":5
+    }
+]

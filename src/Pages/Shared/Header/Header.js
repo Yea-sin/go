@@ -18,8 +18,8 @@ const Header = () => {
         <Nav.Link active href="#link">About us</Nav.Link>
       </Nav>
       <div className="ms-auto auth">
-          <Link to='/login'>Login</Link>
-          <Link to='/register'>Register</Link>
+          <Link className='border-bottom' to='/login'>Login</Link>
+          <Link className='border-bottom' to='/register'>Register</Link>
       </div>
     </Navbar.Collapse>
   </Container>

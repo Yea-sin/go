@@ -8,6 +8,11 @@
     color: #603e0a;
     border: 1px solid black;
 }
+.services-content h1:hover{
+    background-color: #603e0a;
+    color: white;
+    transition: all linear 0.5s;
+}
 
 .services-content h3{
     font-size: 30px;
