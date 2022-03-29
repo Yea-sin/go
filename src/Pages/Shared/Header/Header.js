@@ -22,7 +22,10 @@ const Header = () => {
       </Nav>
       <div className="ms-auto">
         {
-          user?.email ? <button onClick={logOut} className="btn btn-info">Logout</button> :
+          user?.email ? <div className="d-flex align-items-center">
+            <h5>{user?.displayName}</h5>
+            <button onClick={logOut} className="btn btn-info ms-3">Logout</button>
+          </div> :
           <div className='auth'><Link className='border-bottom' to='/login'>Login</Link>
           <Link className='border-bottom' to='/register'>Register</Link></div>
         }
