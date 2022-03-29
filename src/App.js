@@ -7,6 +7,7 @@ import Products from './Pages/Products/Products';
 import Login from './Pages/Shared/Login/Login/Login';
 import Register from './Pages/Shared/Login/Register/Register';
 import AuthProvider from './Context/AuthProvider/AuthProvider';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/home' element={<Home/>}/>
-          <Route path='/products' element={<Products/>}/>
+          <Route path='/products' element={<PrivateRoute><Products/></PrivateRoute>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
       </Routes>

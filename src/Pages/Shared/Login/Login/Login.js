@@ -2,10 +2,12 @@ import React from 'react';
 import './Login.css'
 import {GrBike} from 'react-icons/gr'
 import { Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import useAuth from '../../../../Hooks/useAuth';
 
 const Login = () => {
+    const location = useLocation();
+    const navigate = useNavigate();
     const {loginWithGoogle} = useAuth()
     const handleForm = (e) =>{
         e.preventDefault();
@@ -20,7 +22,7 @@ const Login = () => {
                 <p className='text-white'>Don't have an account ? <Link className='text-decoration-none text-white' to="/register">Register</Link></p>
                 <button className="btn btn-dark">Login</button>
                 ----------------------------or--------------------------------
-                <button onClick={loginWithGoogle} className="btn btn-info w-50">Login with google</button>
+                <button onClick={()=>loginWithGoogle(location, navigate)} className="btn btn-info w-50">Login with google</button>
             </form>
         </Container>
         </>
